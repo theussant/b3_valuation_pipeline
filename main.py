@@ -3,7 +3,7 @@ from src.extract import YFinanceExtractor
 from src.load import DataLoader
 from src.transform import ValuationTransformer
 from src.visualize import Visualizer 
-from loguru import logger
+from loguru import logger # type: ignore
 import sys
 
 # Log estruturado
