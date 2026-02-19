@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database
+data/*.db
+
+# Logs
+logs/
+
+# Reports (Gráficos)
+reports/*.png
+
+# Docker
+.docker_id

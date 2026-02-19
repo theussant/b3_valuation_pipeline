@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: b3_etl_container
+    # O comando 'tail -f' mantém o container vivo entrar nele
+    command: tail -f /dev/null
+    volumes:
+      - .:/app  # Sincroniza código local com o container
+    environment:
+      - PYTHONUNBUFFERED=1
