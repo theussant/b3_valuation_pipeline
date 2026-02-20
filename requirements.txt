@@ -1,9 +1,10 @@
 ##########################################
 # EXTRAÇÃO E MANIPULAÇÃO DE DADOS
 ##########################################
-yfinance==0.2.52
+# Removido yfinance por instabilidade de bloqueio de IP
 pandas==2.2.3
 numpy==1.26.4
+requests==2.31.0
 
 ##########################################
 # QUALIDADE E VALIDAÇÃO (DATA QUALITY)
@@ -23,8 +24,7 @@ python-dotenv==1.0.1
 loguru==0.7.3
 
 ##########################################
-# TESTES
+# VISUALIZAÇÃO E TESTES
 ##########################################
-pytest==8.3.4
-requests==2.31.0
 matplotlib==3.8.2
+pytest==8.3.4
