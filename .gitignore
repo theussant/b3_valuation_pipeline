@@ -2,15 +2,22 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.venv/
+env/
+venv/
+
+# Segurança
+.env
 
 # Database
 data/*.db
 
 # Logs
-logs/
+logs/*.log
 
-# Reports (Gráficos)
+# Reports (Gráficos e PDFs)
 reports/*.png
+reports/*.pdf
 
 # Docker
 .docker_id
